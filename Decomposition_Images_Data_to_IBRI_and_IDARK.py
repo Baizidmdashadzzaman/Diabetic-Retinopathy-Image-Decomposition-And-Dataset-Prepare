@@ -8,10 +8,10 @@ from skimage.morphology import disk, opening, closing, black_tophat  # For decom
 # --- Configuration ---
 # IMPORTANT: Adjust these paths based on your local machine's file structure
 # Input directory where your original fundus images are stored.
-INPUT_IMAGES_DIR = 'Aptos_DDR_Dataset/Augmented/train'  # UPDATE THIS!
+INPUT_IMAGES_DIR = 'Aptos_DDR_Dataset/train'  # UPDATE THIS!
 
 # Output directory for the new decomposed dataset.
-OUTPUT_DATASET_DIR = 'Aptos_DDR_Dataset/Augmented/decomposed_fundus_dataset'  # UPDATE THIS!
+OUTPUT_DATASET_DIR = 'Aptos_DDR_Dataset/decomposed_fundus_dataset'  # UPDATE THIS!
 
 # Desired image size for processing. Ensure consistency.
 IMAGE_SIZE = (640, 640)  # Width, Height (Matches your preferred size)
